@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
 
 const btnTopo = document.getElementById("BtTopo");
 window.addEventListener("scroll", () => {
-    if(window.scrollY > 300){
+    if(window.scrollY > 1450){
         btnTopo.style.display = "block";
     }else{
         btnTopo.style.display = "none";
