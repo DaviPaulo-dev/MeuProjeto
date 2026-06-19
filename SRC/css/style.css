@@ -17,11 +17,24 @@ h1{
 h2{
     transition: 0.3s;
     margin-bottom: 10px;
+    font-size: 35px;
 
 }
 
 h2:hover{
     color: #8EB4F5;
+
+}
+
+#inf{
+    transition: 0.3s;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+p{
+    font-size: 20px;
 
 }
 
@@ -31,14 +44,16 @@ h2:hover{
     justify-content: center;
     gap: 40px;
     margin-top: 20px;
+   
 }
 
 nav a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.3s;
     padding: 25px;
+    font-weight: bold;
 }
 
 nav a:hover{
@@ -86,6 +101,7 @@ nav a:hover{
 
 .card:hover{
     transform: translateY(-10px);
+    
 }
 
 .card h3{
